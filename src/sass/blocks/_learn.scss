@@ -1,0 +1,42 @@
+.learn__more {
+    padding: 90px;
+    position: relative;
+    &__info {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text {
+        position: absolute;
+    }
+    &__subtitle {
+        font-family: Helvetica;
+        width: 645px;
+        font-size: 75px;
+        color: #212353;
+    }
+    &__deckr {
+        font-family: Avenir;
+        width: 385px;
+        font-size: 19px;
+        color: #4B5D68;
+        padding: 40px 10px;
+    }
+    &__button {
+        font-family: Avenir;
+        font-size: 18px;
+        color: #ffff;
+        width: 150px;
+        height: 40px;
+        border-radius: 50px;
+        background-color:  #9C69E2;
+    }
+    &__button:hover {
+        width: 152px;
+        height: 42px;
+    }
+    &__img {
+        margin: 0 auto;
+        margin-left: 340px;
+        margin-top: 30px;
+    }
+}

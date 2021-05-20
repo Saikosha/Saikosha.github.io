@@ -1,0 +1,79 @@
+.features {
+   &__caption {
+       padding-bottom:70px;
+       margin: 0 auto;
+       display: block;
+       text-align: center;
+       &__text-1 {
+        color: #212253;
+        font-family: Helvetica;
+        font-size: 24px;
+       }
+       &__text-2 {
+           color: #4B5D68;
+           font-family: Avenir;
+           font-size: 18px;
+           width: 540px;
+           margin: 0 auto;
+           display: block;
+           text-align: center;
+          padding-top: 30px;
+       }
+   }
+   &__subtitle {
+        color: #212253;
+        font-size: 24px;
+        font-family: Helvetica;
+   }
+   &__deckr {
+        color: #4B5D68;
+        font-family: Avenir;
+        font-size: 16px;
+        width: 200px;
+   }
+   &__button {
+    display: flex;
+    color: #212253;
+    font-size: 16px;
+    font-family: Avenir;
+    padding: 0 0 0 15px;
+    :hover {
+        color: #212253;
+        font-size: 17px;
+    }
+        &-1 {
+        padding-right: 10px;
+        }
+    }
+    &__information {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__main__2 {
+        padding-top: 170px;
+    }
+    &__phon {
+        position: absolute;
+    }
+    &__text__icon {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        transform: translateY(80px);
+        &__info {
+            position: absolute;
+            transform: translateX(100%);
+        }
+        &__img {
+            position: absolute;
+            transform: translateX(-30%);
+        }
+        &__vector-1 {
+           transform: translateX(80%);
+        }
+    }
+}

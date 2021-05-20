@@ -1,0 +1,38 @@
+.storage {
+    position: relative;
+    padding-bottom: 600px;
+    &__line {
+        position: absolute;
+        width: 1100px;
+        height: 500px;
+        background-color: #F063B8;
+        border-radius: 35px;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        opacity: 0.3;
+    }
+    &__info {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__subtitle{
+        margin: 0 auto;
+        margin: 150px 0 0 90px;
+        &-1 {
+            font-family: SubHeadline;
+            color: #212353;
+            font-size: 40px;
+            width: 445px;
+        }
+        &-2 {
+            padding-top: 20px;
+            font-family: Avenir;
+            color: #4B5D68;
+            font-size: 18px;
+            width: 445px;
+        }
+    }
+    
+}
